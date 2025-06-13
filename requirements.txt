@@ -1,4 +1,3 @@
-```text
 faiss-cpu
 sentence-transformers
 requests
