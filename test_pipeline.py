@@ -1,7 +1,6 @@
 import sys
 import os
 
-# Dynamically get the absolute path to modules/ directory
 current_dir = os.path.dirname(os.path.abspath(__file__))
 modules_path = os.path.abspath(os.path.join(current_dir, "..", "modules"))
 sys.path.append(modules_path)
